@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\stack">
+      <UniqueIdentifier>{840ff18a-872c-4e05-ad37-83664e367e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\algoritmi sortiranja">
+      <UniqueIdentifier>{f5830eaa-da29-4276-821f-92d89568855d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lists">
+      <UniqueIdentifier>{a0630b42-16eb-482a-a044-d9cf22161fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\searchAlgorithms">
+      <UniqueIdentifier>{df9a1342-0e66-42cd-aabd-07ae907a9e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fstreams">
+      <UniqueIdentifier>{a2dec70f-05b3-469d-b552-0de84802c542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pointers_and_dynamic_allocation_of_memory">
+      <UniqueIdentifier>{7dcfe4dc-25f3-4ddd-8b55-a4c463c23de6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="red.cpp">
+      <Filter>Source Files\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="stog.cpp">
+      <Filter>Source Files\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="binarySearch.cpp">
+      <Filter>Source Files\searchAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="guardSearch.cpp">
+      <Filter>Source Files\searchAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="probabilitySearch.cpp">
+      <Filter>Source Files\searchAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="orderSequentialSearch.cpp">
+      <Filter>Source Files\searchAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="linearSearch.cpp">
+      <Filter>Source Files\searchAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="selectionSort + fstream.cpp">
+      <Filter>Source Files\algoritmi sortiranja</Filter>
+    </ClCompile>
+    <ClCompile Include="selectionSort.cpp">
+      <Filter>Source Files\algoritmi sortiranja</Filter>
+    </ClCompile>
+    <ClCompile Include="bubbleSort.cpp">
+      <Filter>Source Files\algoritmi sortiranja</Filter>
+    </ClCompile>
+    <ClCompile Include="insertionSort.cpp">
+      <Filter>Source Files\algoritmi sortiranja</Filter>
+    </ClCompile>
+    <ClCompile Include="binaryFiles.cpp">
+      <Filter>Source Files\fstreams</Filter>
+    </ClCompile>
+    <ClCompile Include="binaryFiles_example2.cpp">
+      <Filter>Source Files\fstreams</Filter>
+    </ClCompile>
+    <ClCompile Include="textualFiles.cpp">
+      <Filter>Source Files\fstreams</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_and_input_value_into_pointer.cpp">
+      <Filter>Source Files\pointers_and_dynamic_allocation_of_memory</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_and_array.cpp">
+      <Filter>Source Files\pointers_and_dynamic_allocation_of_memory</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers_and_struct.cpp">
+      <Filter>Source Files\pointers_and_dynamic_allocation_of_memory</Filter>
+    </ClCompile>
+    <ClCompile Include="intro_to_pointers.cpp">
+      <Filter>Source Files\pointers_and_dynamic_allocation_of_memory</Filter>
+    </ClCompile>
+    <ClCompile Include="singlyLinkedList.cpp">
+      <Filter>Source Files\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamicPointers + sorting.cpp">
+      <Filter>Source Files\pointers_and_dynamic_allocation_of_memory</Filter>
+    </ClCompile>
+    <ClCompile Include="allSortingAlgorithmsInOneCode.cpp">
+      <Filter>Source Files\algoritmi sortiranja</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
