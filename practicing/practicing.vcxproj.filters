@@ -16,7 +16,7 @@
     <Filter Include="Source Files\stack">
       <UniqueIdentifier>{840ff18a-872c-4e05-ad37-83664e367e93}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\algoritmi sortiranja">
+    <Filter Include="Source Files\sortingAlgorithms">
       <UniqueIdentifier>{f5830eaa-da29-4276-821f-92d89568855d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Lists">
@@ -33,10 +33,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="red.cpp">
+    <ClCompile Include="row.cpp">
       <Filter>Source Files\stack</Filter>
     </ClCompile>
-    <ClCompile Include="stog.cpp">
+    <ClCompile Include="stack.cpp">
       <Filter>Source Files\stack</Filter>
     </ClCompile>
     <ClCompile Include="binarySearch.cpp">
