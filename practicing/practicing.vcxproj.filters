@@ -96,5 +96,8 @@
     <ClCompile Include="allSortingAlgorithmsInOneCode.cpp">
       <Filter>Source Files\algoritmi sortiranja</Filter>
     </ClCompile>
+    <ClCompile Include="stack.cpp">
+      <Filter>Source Files\stack</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

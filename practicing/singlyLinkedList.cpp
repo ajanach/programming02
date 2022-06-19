@@ -63,39 +63,39 @@
 //	return 0;
 //}
 
-#include <iostream>
-using namespace std;
-
-struct Node
-{
-	char a;
-	Node* next;
-};
-
-int main() {
-	Node* P1 = new Node;
-	Node* P2 = new Node;
-	Node* P3 = new Node;
-	Node* P4 = new Node;
-
-	P1->a = 'R';
-	P2->a = 'D';
-	P3->a = 'E';
-	P4->a = 'C';
-
-	P1->next = P2;
-	P2->next = P3;
-	P3->next = P4;
-	P4->next = NULL;
-
-	P4->next = P1->next; 
-	P3 = P1;
-	P2->next = P3->next;
-
-	cout << P2->next->a << P3->a << P4->a << P1->a << endl;
-
-	return 0;
-}
+//#include <iostream>
+//using namespace std;
+//
+//struct Node
+//{
+//	char a;
+//	Node* next;
+//};
+//
+//int main() {
+//	Node* P1 = new Node;
+//	Node* P2 = new Node;
+//	Node* P3 = new Node;
+//	Node* P4 = new Node;
+//
+//	P1->a = 'R';
+//	P2->a = 'D';
+//	P3->a = 'E';
+//	P4->a = 'C';
+//
+//	P1->next = P2;
+//	P2->next = P3;
+//	P3->next = P4;
+//	P4->next = NULL;
+//
+//	P4->next = P1->next; 
+//	P3 = P1;
+//	P2->next = P3->next;
+//
+//	cout << P2->next->a << P3->a << P4->a << P1->a << endl;
+//
+//	return 0;
+//}
 
 // 30. zadatak:
 //#include <iostream>

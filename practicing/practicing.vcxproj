@@ -144,6 +144,7 @@
     <ClCompile Include="probabilitySearch.cpp" />
     <ClCompile Include="orderSequentialSearch.cpp" />
     <ClCompile Include="linearSearch.cpp" />
+    <ClCompile Include="stack.cpp" />
     <ClCompile Include="stog.cpp" />
     <ClCompile Include="textualFiles.cpp" />
     <ClCompile Include="singlyLinkedList.cpp" />
